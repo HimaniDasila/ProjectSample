@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Work+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #b084fb;
+  --secondary-color: #282828;
+  --tertiary-color: #bd73f2;
+  --header-color: #8745f9;
+  --second-color: #7f7fcd;
+  --third-color: #000;
+  --fourth-color: #7f7e7e;
+  --fifth-color: #fff;
+  --sixth-color: #f4f4f4;
+}
+
+.header nav li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+.header nav li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 15px;
+  line-height: 18px;
+  transition: all 0.3s linear;
+}
+
+nav h2 {
+  color: var(--primary-color);
+}
+
+.header nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header nav li:hover,
+.header nav li:active {
+  border-bottom: 2px solid;
+  border-color: var(--tertiary-color);
+}
+
+body .header {
+  box-shadow: 0px 3px 10px 0px #dddddd;
+  background: var(--fifth-color);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.hero-section {
+  padding: 60px 0;
+}
+
+.hero-section .hero-section-left,
+.hero-section .hero-section-right {
+  width: 50%;
+}
+body {
+  background-color: var(--sixth-color);
+}
+
+.hero-section h1 {
+  font-size: 42px;
+  letter-spacing: -0.7px;
+  margin-bottom: 24px;
+  color: var(--header-color);
+  line-height: 38px;
+}
+
+.resume-wrapper .resume-image {
+  width: 50%;
+  padding-right: 32px;
+}
+
+.resume-wrapper .resume-content {
+  width: 50%;
+}
+
+.hero-section-left p {
+  padding-right: 38px;
+  margin-bottom: 20px;
+}
+
+.hero-cta {
+  max-width: 115px;
+  background-image: linear-gradient(to right, #88a9ff, #8d51e8);
+  color: var(--fifth-color);
+  display: inline-block;
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.hero-section-right img {
+  max-width: 40%;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+body .resume-wrapper {
+  padding-top: 84px;
+  padding-bottom: 70px;
+}
+
+.resume-wrapper img {
+  width: 75%;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+div.container h2,
+.contact-section h2,
+.work-section h2 {
+  color: var(--third-color);
+  border-bottom: 2px solid var(--second-color);
+  padding-bottom: 16px;
+  position: relative;
+  display: inline-block;
+  line-height: 30px;
+  letter-spacing: -0.9px;
+}
+
+.resume-wrapper ul {
+  padding-left: 20px;
+}
+
+.resume-wrapper h3 {
+  font-family: poppins;
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 14px;
+  margin-top: 25px;
+}
+
+.resume-wrapper li {
+  margin-bottom: 18px;
+}
+
+div.container h2::after,
+.contact-section h2::after,
+.work-section h2::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+  left: 0;
+  background-color: var(--second-color);
+  bottom: -6px;
+}
+
+.resume-wrapper p {
+  color: var(--fourth-color);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  outline: 0;
+  font-size: 16px;
+  border: 1px solid var(--secondary-color);
+  padding: 4px 5px;
+  font-family: poppins;
+  border-radius: 2px;
+  background: transparent;
+}
+
+form input::placeholder {
+  color: var(--secondary-color);
+  font-size: 15px;
+}
+
+.form-row-wrapper .form-row {
+  max-width: 260px;
+  width: 100%;
+}
+
+form textarea::placeholder {
+  color: var(--secondary-color);
+  font-size: 15px;
+}
+
+.contact-section form {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-section {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+form .form-row {
+  margin-top: 16px;
+}
+
+.form-row-wrapper .form-row:first-child {
+  margin-right: 10px;
+}
+
+.footer-logo-images img {
+  width: 20px;
+  margin-left: 5px;
+}
+
+.footer .container {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer p {
+  font-size: 13px;
+  color: var(--fifth-color);
+}
+
+body .footer {
+  background-color: var(--secondary-color);
+}
+
+.availability-section {
+  background-image: url("./images/touchpad-laptop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+body .availability-section .wrapper {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.availability-section .wrapper h1 {
+  margin-bottom: 5px;
+  color: var(--header-color);
+  font-size: 36px;
+}
+
+.work-section .work-templates {
+  margin-top: 40px;
+}
+
+.work-section .work-desc-card {
+  width: 33.33%;
+  background-color: var(--sixth-color);
+  padding: 25px 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #b2b0b0;
+}
+
+.work-section h3 {
+  margin-bottom: 12px;
+}
+
+.work-desc-card p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.work-templates > .work-desc-card + .work-desc-card {
+  margin-left: 16px;
+}
+
+.contact-section .contact-btn {
+  background-color: #8d51e8;
+  color: var(--fifth-color);
+  display: block;
+  width: auto;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+body .cb-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  display: none;
+}
+
+body .cb-modal-container .cb-modal-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+body .cb-modal-content {
+  background-color: #fff;
+  max-width: 240px;
+  width: 100%;
+  z-index: 99;
+  position: relative;
+  animation: slideIn 0.2s linear;
+}
+
+body .cb-modal-content ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  padding: 40px;
+  margin: 0;
+}
+
+body .cb-modal-content ul li {
+  margin-bottom: 16px;
+}
+
+body .cb-modal-content ul li:last-of-type {
+  margin: 0;
+}
+
+body .cb-modal-content .cb-close-btn {
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  position: absolute;
+  top: 7px;
+  right: 12px;
+  line-height: 20px;
+}
+body .cb-modal-content ul a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 15px;
+  line-height: 18px;
+  transition: all 0.3s linear;
+}
+
+body .cb-modal-container.cb-show-modal {
+  display: flex;
+}
+
+.header nav .hamberger-menu-btn {
+  cursor: pointer;
+  display: none;
+}
+
+.header nav img {
+  width: 16px;
+}
+
+.availability-section p {
+  font-weight: 600;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(240px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+    animation-timing-function: ease-in;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header nav li {
+    margin-left: 24px;
+  }
+
+  body .resume-wrapper {
+    align-items: flex-start !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .resume-wrapper img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-section .contact-btn {
+    width: 100%;
+  }
+
+  .form-row-wrapper .form-row,
+  .contact-section form {
+    max-width: 100%;
+  }
+
+  .hero-section h1 {
+    display: none;
+  }
+
+  .hero-section .hero-section-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer p {
+    margin-bottom: 4px;
+  }
+
+  .header nav .hamberger-menu-btn {
+    display: block;
+  }
+
+  .header nav ul {
+    display: none;
+  }
+
+  .hero-section {
+    flex-direction: column-reverse;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  body .resume-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .hero-section .hero-section-right {
+    margin-bottom: 32px;
+    width: 100%;
+  }
+
+  .resume-wrapper .resume-image,
+  .resume-wrapper .resume-content {
+    width: 100%;
+  }
+
+  .resume-wrapper .resume-image {
+    display: none;
+  }
+
+  body .work-section .wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .work-section .work-desc-card {
+    width: 100%;
+  }
+
+  .work-templates > .work-desc-card + .work-desc-card {
+    margin: 0;
+    margin-top: 24px;
+  }
+
+  .contact-section form {
+    margin: 0;
+  }
+}

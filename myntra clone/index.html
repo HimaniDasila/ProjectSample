@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myntra: Fashion & Lifestyle!</title>
+  <link rel="icon" type="image/png"
+    href="data:image/png;base64,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"
+    sizes="64x64" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="tr-navbar tr-desk-nav">
+    <div class="container">
+      <div class="tr-navbar-left">
+        <div class="tr-logo"><img
+            src="https://gumlet.assettype.com/afaqs%2F2021-01%2F15f5f827-8e29-4520-af8d-a0f353b8da17%2Fimages.png?auto=format%2Ccompress&w=360&dpr=2.6" />
+        </div>
+        <ul>
+          <li>MEN</li>
+          <li>WOMEN</li>
+          <li>KIDS</li>
+          <li>HOME & LIVING</li>
+          <li>BEAUTY</li>
+          <li>STUDIO<sup>NEW</sup></li>
+        </ul>
+      </div>
+      <div class="tr-navbar-right">
+        <div class="tr-search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input placeholder="Search for products, brands and more" />
+        </div>
+        <div class="tr-icon">
+          <i class="fa-regular fa-user"></i>
+          <p>Profile</p>
+        </div>
+        <div class="tr-icon">
+          <i class="fa-regular fa-heart"></i>
+          <p>Wishlist</p>
+        </div>
+        <div class="tr-icon">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <p>Bag</p>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="tr-navbar tr-mob-nav">
+    <div class="container">
+      <div class="tr-navbar-left">
+        <div class="tr-logo"><img
+            src="https://gumlet.assettype.com/afaqs%2F2021-01%2F15f5f827-8e29-4520-af8d-a0f353b8da17%2Fimages.png?auto=format%2Ccompress&amp;w=360&amp;dpr=2.6">
+        </div>
+      </div>
+      <div class="tr-navbar-right">
+        <div class="tr-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="tr-icon">
+          <i class="fa-regular fa-bell"></i>
+        </div>
+        <div class="tr-icon">
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="tr-icon">
+          <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="tr-hero-container">
+    <img
+      src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/28/84b6a214-9eb3-49eb-9f9d-72cec56ec5d71659019908592-Indian-Wear_DK--1-.jpg" />
+    <!-- <h2>India's Fashion Festival is Live!</h2>
+    <p>Hurry Up</p>
+    <p>Get up to 50 - 70% off</p> -->
+  </div>
+  <div class="tr-clothing-section">
+    <div class="wrapper">
+      <div class="tr-ethnic-brands">
+        <h2>Deals on Top Brands</h2>
+        <div class="tr-clothing-container">
+          <div class="tr-ethnic-brand">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/9/26/adc58a2c-fa18-4b94-b2d6-4c692a44123d1601115417606-unnamed--6-.jpg">
+          </div>
+          <div class="tr-ethnic-brand">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/8238147e-a86e-4fe4-a830-ab5c2c49beba1598892141840-W.jpg">
+          </div>
+          <div class="tr-ethnic-brand">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/ee953e28-7ca8-4e08-a6a9-c51c98f823411598892141010-BIBA.jpg">
+          </div>
+          <div class="tr-ethnic-brand">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/9/5a5a162e-c4ad-4497-b995-a3c077d25df71596975348916-Women-s-Ethnic-Wear_Vishudh.jpg">
+          </div>
+          <div class="tr-ethnic-brand">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/28/529db52b-ba58-423a-9ad6-3161ef642dff1598605975128-Women-s-Ethnic-Wear---Anouk.png">
+          </div>
+          <div class="tr-ethnic-brand">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/10/7/99f75f40-4d3f-4049-87da-be2662359aca1602087172072-sangriawomen.jpg">
+          </div>
+          <div class="tr-ethnic-brand">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/10/7/697bb8c0-5c99-4d02-b0f9-d46ca72889db1602086685082-dressberrywomen.jpg">
+          </div>
+          <div class="tr-ethnic-brand">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/9/4/e6c7a718-acc0-4aa6-b04c-470ab139d66c1599230080722-F21--4-.jpg">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tr-clothing-categories">
+        <h2>Categories in Women's Wear</h2>
+        <div class="tr-clothing-container">
+          <div class="tr-clothing-category">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/aa4658b5-d723-4652-9ea1-00456b355c3a1645602467046-Kurta-Sets.jpg">
+          </div>
+          <div class="tr-clothing-category">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/0f0be09e-4155-47bf-82e1-51044e7e7fd11645602467052-Kurtas.jpg">
+          </div>
+          <div class="tr-clothing-category">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/f9ca5609-b634-42d4-8c08-a8eaebb818b71645602467085-Sarees.jpg">
+          </div>
+          <div class="tr-clothing-category">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/b34a30a6-504b-4c94-b7e1-61391d536bc51645602467038-Jewellery.jpg">
+          </div>
+          <div class="tr-clothing-category">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/67783047-7fcc-4530-9368-9be75a713e411645602466995-Dresses.jpg">
+          </div>
+          <div class="tr-clothing-category">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/b827f900-ed61-4467-84fa-a6e357787e761645602467079-Plus-Size-Styles_W.jpg">
+          </div>
+          <div class="tr-clothing-category">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/fb091b07-c275-4578-b08d-b4f93dfe9e841645602466976-Beauty.jpg">
+          </div>
+          <div class="tr-clothing-category">
+            <img
+              src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/171a820e-96f0-4b11-a138-03953a7e05481645602467153-Trousers_W.jpg">
+          </div>
+        </div>
+      </div>
+
+      <div class="tr-men-section">
+        <h2>Great deals for men</h2>
+        <div class="tr-clothing-container">
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2414313/2022/4/18/c08becf1-36fc-4c1f-a3c9-92542d3ef8221650284958075HERENOWMenRedBlackCheckedPureCottonCasualShirt1.jpg" />
+            </div>
+            <p>Flat 70% off on Shirts</p>
+          </div>
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1700944/2019/6/8/488007ef-c65e-4a2f-a92b-65b6846894861559989274078-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--1.jpg">
+            </div>
+            <p>Flat 60% off on T-Shirts</p>
+          </div>
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16234358/2022/9/8/08c166e8-b73d-4444-b607-5985a78d3f871662621424477-Invictus-Indoor-Men-Track-Pants-1971662621423805-1.jpg">
+            </div>
+            <p>Flat 60% off on Jeans</p>
+          </div>
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18204228/2022/7/13/f05bb027-a7df-4c46-9cf1-5e66f803fa771657696278855-HRX-by-Hrithik-Roshan-Grey-Melange-Fashion-Mens-Track-pants--1.jpg">
+            </div>
+            <p>Flat 60% off on Joggers</p>
+          </div>
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11903988/2020/6/18/be64f47b-04df-4e22-813d-5980ef04fc341592471769073-Roadster-Men-Shirts-881592471767015-1.jpg">
+            </div>
+            <p>Flat 60% off on Shirts</p>
+          </div>
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11999584/2020/8/14/9f39b815-ee3b-495e-8b08-6ce9d0f92e0d1597411121660-HRX-by-Hrithik-Roshan-Men-Tshirts-8251597411119858-1.jpg">
+            </div>
+            <p>Flat 60% off on T-Shirts</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tr-women-section">
+        <h2>Great deals for women</h2>
+        <div class="tr-clothing-container">
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19524874/2022/8/17/0fb689b3-28b4-4f6a-be08-a2ce9dfedcdc1660715206206QOMNBluePrintMandarinCollarTop1.jpg" />
+            </div>
+            <p>Flat 70% off on Kurtas</p>
+          </div>
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17629070/2022/3/24/14ccd339-2c9f-4649-9123-2ec6f4de7ae41648116211902LEBOURGEOISWhiteCropTop1.jpg">
+            </div>
+            <p>Flat 60% off on tops</p>
+          </div>
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/21632900/2023/1/20/56c13c3f-8e5a-4081-b851-f987f8f808221674198690408DARZIWomenPrintedSweetheartNeckRegularRegularTop1.jpg">
+            </div>
+            <p>Flat 60% off on Stylish Tops</p>
+          </div>
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15907906/2021/11/22/77436f0e-2796-45f3-951e-17cce6eceaab1637574542606GreenFloralJalHandprintedJaipuriFullLengthCottonNursingKafta1.jpg">
+            </div>
+            <p>Flat 60% off on Crop Top</p>
+          </div>
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19813040/2022/9/6/90f905b8-118b-4485-a97d-08ae0642eb791662452447830DreamBeautyFashionWhiteTop1.jpg">
+            </div>
+            <p>Flat 60% off on Casual Tops</p>
+          </div>
+          <div class="tr-brand">
+            <div class="tr-image">
+              <img
+                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/21808352/2023/2/2/cbbc49cb-d99d-4f98-b7bd-2e4e31d0fd5d1675334731586Tops1.jpg">
+            </div>
+            <p>Flat 60% off on Tops</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="wrapper">
+      <div class="footer-left">
+        <div class="tr-footer-list">
+          <h2>Online Shopping</h2>
+          <ul>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Kids</li>
+            <li>Home & Living</li>
+            <li>Beauty</li>
+            <li>Gift Cards</li>
+            <li>Myntra Insider</li>
+          </ul>
+        </div>
+        <div class="tr-footer-list">
+          <h2>Customer Policies</h2>
+          <ul>
+            <li>Contact Us</li>
+            <li>FAQ</li>
+            <li>T&C</li>
+            <li>Terms Of Use</li>
+            <li>Track Orders</li>
+            <li>Shipping</li>
+            <li>Cancellation</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <div class="tr-download-links">
+          <h2> EXPERIENCE MYNTRA APP ON MOBILE </h2>
+          <div class="tr-download-link">
+            <img
+              src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png">
+            <img
+              src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png">
+          </div>
+        </div>
+        <div class="tr-promises">
+          <div class="tr-product-original">
+            <div class="tr-product-img">
+              <img
+                src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png">
+            </div>
+            <p><b>100% ORIGINAL</b> guarantee for all products at myntra.com</p>
+          </div>
+          <div class="tr-product-original">
+            <div class="tr-product-img">
+              <img
+                src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png">
+            </div>
+            <p><b> Return within 30days</b> of receiving your order</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/621d6153d4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
